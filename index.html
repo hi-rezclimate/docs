@@ -77,9 +77,75 @@ http://api.hi-rezclimate.org/amsr2.py/sst?lat=35.52&lng=138.99&date=2014-04-01&r
 {"lat":36.00,"lng":138.90,"sst":5.940000},
 {"lat":36.00,"lng":139.00,"sst":5.960000},
 {"lat":36.00,"lng":139.10,"sst":6.160000},
-{"lat":36.00,"lng":139.20,"sst":6.520000},
 .....
+{"lat":35.10,"lng":138.90,"sst":9999.000000},
+{"lat":35.10,"lng":139.00,"sst":9999.000000},
+{"lat":35.10,"lng":139.10,"sst":9999.000000},
+{"lat":35.10,"lng":139.20,"sst":9999.000000},
+{"lat":35.10,"lng":139.30,"sst":9999.000000}]}
 </div>
+
+<!--copy start-->
+<h1 id="Sea Surface Temperature">Sea Surface Wind</h1>
+<h3>Endpoint</h3>
+<div class="alert alert-info">http://api.hi-rezclimate.org/amsr2.py/ssw</div>
+<h3>Query Params</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th>param name</th>
+      <th>detail</th>
+      <th>sample</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lat</td>
+      <td>緯度</td>
+      <td>35.32</td>
+    </tr>
+    <tr>
+      <td>lng</td>
+      <td>経度</td>
+      <td>138.99</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>日付(2013-01-01~)</td>
+      <td>2014-04-01</td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td></td>
+      <td>0.5</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Sample</h3>
+<div class="alert alert-success">
+http://api.hi-rezclimate.org/amsr2.py/ssw?lat=35.52&lng=138.99&date=2014-04-01&range=0.5
+</div>
+<h3>Response</h3>
+<div class="well">
+{"result":"ok", "values":[{"lat":36.00,"lng":138.40,"sst":9999.000000},
+{"lat":36.00,"lng":138.50,"sst":9999.000000},
+{"lat":36.00,"lng":138.60,"sst":9999.000000},
+{"lat":36.00,"lng":138.70,"sst":9999.000000},
+{"lat":36.00,"lng":138.80,"sst":9.490000},
+{"lat":36.00,"lng":138.90,"sst":9.530000},
+{"lat":36.00,"lng":139.00,"sst":9.340000},
+{"lat":36.00,"lng":139.10,"sst":9.330000},
+{"lat":36.00,"lng":139.20,"sst":9.160000},
+{"lat":36.00,"lng":139.30,"sst":9.230000},
+.....
+{"lat":35.10,"lng":138.90,"sst":9999.000000},
+{"lat":35.10,"lng":139.00,"sst":9999.000000},
+{"lat":35.10,"lng":139.10,"sst":9999.000000},
+{"lat":35.10,"lng":139.20,"sst":9999.000000},
+{"lat":35.10,"lng":139.30,"sst":9999.000000}]}
+</div>
+</div>
+<!--copy end-->
 </div>
 </div>
 <script src="dest/assets/js/main.js"></script>
